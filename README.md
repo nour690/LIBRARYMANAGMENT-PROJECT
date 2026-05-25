@@ -6,8 +6,6 @@ The application provides an intuitive graphical interface for librarians and cus
 
 It follows a layered architecture where:
 
----
-
 the GUI handles user interaction,
 DatabaseManager handles business logic and database operations,
 SQLite stores persistent system data.
