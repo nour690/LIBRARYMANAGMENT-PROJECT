@@ -165,3 +165,13 @@ Main tables:
 7. Librarian approves returns and manages fines  
 
 ---
+
+# 👨‍💻 Author
+
+Mohammad Nour ALTURKMANI
+
+Software Engineering Student @ FSMVU
+
+📍 Passionate about software engineering, GUI development, and database systems.
+
+🗓️ Final project developed during the Spring 2026 semester.
