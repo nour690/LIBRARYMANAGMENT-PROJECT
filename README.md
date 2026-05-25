@@ -46,7 +46,7 @@ SQLite stores persistent system data.
 
 ---
 
-# 🛒 Borrowing Workflow
+## 🛒 Borrowing Workflow
 
 The borrowing system follows a multi-step workflow:
 
@@ -62,7 +62,7 @@ The borrowing system follows a multi-step workflow:
 
 ---
 
-# 🔁 Return Request System
+## 🔁 Return Request System
 
 Instead of directly returning books, customers submit a return request.
 
@@ -76,13 +76,13 @@ This simulates a more realistic library workflow.
 
 ---
 
-# 💰 Fine Calculation
+## 💰 Fine Calculation
 
 Fines are calculated based on:
 - overdue days,
 - book condition.
 
-## Book Conditions
+### Book Conditions
 
 | Condition | Fine |
 |---|---|
@@ -111,11 +111,6 @@ Handles:
 - tables,
 - navigation,
 - user interaction.
-
-Uses:
-- `QStackedWidget`
-- `QTableWidget`
-- signals & slots (`clicked.connect()`)
 
 ---
 
@@ -147,7 +142,7 @@ Main tables:
 
 ---
 
-# 🧱 Tech Stack
+## 🧱 Tech Stack
 
 | Component | Technology |
 |---|---|
@@ -156,3 +151,17 @@ Main tables:
 | Database | SQLite |
 | IDE | VS Code |
 | UI Design | Qt Designer |
+
+---
+
+## 🧠 Example Usage Flow
+
+1. Launch the application  
+2. Login/Register  
+3. Browse books  
+4. Add books to cart  
+5. Checkout books  
+6. Submit return requests  
+7. Librarian approves returns and manages fines  
+
+---
