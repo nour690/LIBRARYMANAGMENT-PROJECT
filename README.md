@@ -154,15 +154,42 @@ Main tables:
 
 ---
 
-## 🧠 Example Usage Flow
+# 🛠️ Setup & Installation
 
-1. Launch the application  
-2. Login/Register  
-3. Browse books  
-4. Add books to cart  
-5. Checkout books  
-6. Submit return requests  
-7. Librarian approves returns and manages fines  
+## 1️⃣ Prerequisites
+
+- Python 3.10+
+- PyQt5
+- SQLite3
+- VS Code (recommended)
+
+Install PyQt5:
+
+```bash
+pip install PyQt5
+```
+
+---
+
+## 2️⃣ Running the Application
+
+Clone the repository:
+
+```bash
+git clone YOUR_REPO_LINK
+```
+
+Open the project folder:
+
+```bash
+cd project-name
+```
+
+Run the application:
+
+```bash
+python main.py
+```
 
 ---
 
